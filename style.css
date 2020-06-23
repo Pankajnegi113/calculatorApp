@@ -1,0 +1,97 @@
+body{
+    background-color: chocolate;
+}
+
+#main{
+  height: 556px;
+  width: 600px;
+  border:10px solid grey;
+  margin-left: 30%;
+  margin-top: 7%;
+}
+
+/* Calculator app text*/
+#heading{
+ height: 3rem;
+ width: 100%;
+ border: 1px solid black;
+ text-align: center;
+ font-weight: bolder;
+ font-size: 40px;
+ font-style: italic;
+ color:sienna;
+ background-color:darkcyan;
+ -webkit-text-stroke: 0.8px black;
+ -webkit-text-fill-color: sienna;
+}
+
+/*displays the results*/
+#display{
+    height: 6rem;
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgb(219, 214, 214);
+ 
+   }
+
+#display span{
+    text-align: center;
+    color: rgb(27, 102, 59);
+}
+
+/*flex usgae is made to separate operands and operators*/
+#cal-body{
+    height:73%;
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+    background-color: white;
+}
+
+/*flex usgae is made*/
+#buttons{
+width: 80%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+border: 1.3px solid grey;
+}
+
+#buttons .btn{
+height: 5rem;
+width:9.16rem;
+border: 1px solid grey;
+}
+
+/*decimal operator is managed separately as it was taking two columns*/
+#buttons #btn-point{
+    height: 5rem;
+    width:18.5rem;
+    border: 1px solid grey;
+    }
+
+span{
+   position: relative;
+   top:35%;
+   left: 38%;
+   font-size: xx-large;
+   font-weight: bolder;
+}
+
+/*operators stored in column wise manner*/
+#operators{
+    width: 26.7%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 0.02px solid black;
+}
+
+
+#operators .btn{
+height: 4.94921rem;
+width:9.2rem;
+background-color: #a83246;
+border: 1px solid rgb(41, 154, 219);
+}
