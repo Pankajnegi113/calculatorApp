@@ -1,7 +1,6 @@
 var buttons=document.getElementsByClassName("btn");
 var pointBtn=document.getElementById("btn-point");
 var display=document.getElementById("dis-screen");
-console.log("Adssa");
 var op1;
 var op2;
 var op;
